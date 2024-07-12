@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+body{
+	align-items: center;
+	height : 100vh;
+	display: flex;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(gym.jpg);	
+	flex-direction: column;
+	margin: 0;
+	justify-content: center;
+}
+
+.container {
+	align-content : center;
+	width: 600px;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: white;
+	box-shadow: 20px white;
+}
+
+h1{
+	font-weight: bold;
+	color: #87CEEB;
+}
+
+.links a{
+	color: #fff; /* Text color */
+    background-color: #007bff; /* Background color */
+    padding: 10px 20px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it a block element */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.links a:hover{
+	background-color: #0056b3; /* Darker background color on hover */
+    color: #fff; /* Change text color on hover */
+    text-transform: uppercase; 
+} 

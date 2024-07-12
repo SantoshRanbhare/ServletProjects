@@ -1,0 +1,6 @@
+1715018030689	Delete element
+1715055142113	Delete element
+1715055187103	Rename type 'JDBC_Customer_Service'
+1715055245884	Rename type 'JDBC_Client_Service'
+1715055260327	Rename type 'JDBC_Client_App'
+1715055365958	Move 'connection.properties' to 'JDBCProject_Hospital_Client-DB'

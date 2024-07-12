@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f1f1f1;
+	background-image: url("https://wallpapercave.com/wp/wp6056707.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	width: 300px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-bottom: 10px; /* Add some space between buttons */
+}
+
+ .container:hover {
+    background-color: gray; /* New background color on hover */
+  }
+
+h1 {
+	text-align: center;
+}
+
+input[type="text"], input[type="number"], input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+a {	
+	width : 100%;
+	display: inline-block;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	text-align : center;
+	padding: 10px 20px;
+	background-color: #007bff; /* Button background color */
+	color: #fff; /* Text color */
+	text-decoration: none; /* Remove underline */
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	/* Smooth transition for hover effect */
+}
+
+/* Style the anchor element on hover */
+a:hover {
+	background-color: #0056b3; /* New background color on hover */
+}

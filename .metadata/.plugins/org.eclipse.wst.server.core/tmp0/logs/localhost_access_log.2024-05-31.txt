@@ -1,0 +1,15 @@
+127.0.0.1 - - [31/May/2024:20:26:49 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:26:52 +0530] "GET /ServletProject_CarDb/index.jsp HTTP/1.1" 200 411
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:26:52 +0530] "GET /ServletProject_CarDb/index.css HTTP/1.1" 200 1378
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:26:52 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:27:00 +0530] "GET /ServletProject_CarDb/displayAllCars HTTP/1.1" 200 1254
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:27:00 +0530] "GET /ServletProject_CarDb/DisplayCar.css HTTP/1.1" 200 1303
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:27:01 +0530] "GET /ServletProject_CarDb/index.jsp HTTP/1.1" 200 411
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:27:03 +0530] "GET /ServletProject_CarDb/displayAllCars HTTP/1.1" 200 1254
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:27:17 +0530] "GET /ServletProject_CarDb/updateCar?carId=101 HTTP/1.1" 200 623
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:27:54 +0530] "GET /ServletProject_CarDb/updateCar?carId=101 HTTP/1.1" 200 623
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:28:17 +0530] "POST /ServletProject_CarDb/saveUpdatedCar HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:28:17 +0530] "GET /ServletProject_CarDb/displayAllCars HTTP/1.1" 200 1256
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:28:41 +0530] "GET /ServletProject_CarDb/deleteCar?carId=103 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:28:41 +0530] "GET /ServletProject_CarDb/displayAllCars HTTP/1.1" 200 991
+0:0:0:0:0:0:0:1 - - [31/May/2024:20:28:44 +0530] "GET /ServletProject_CarDb/index.jsp HTTP/1.1" 200 411
